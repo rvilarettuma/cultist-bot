@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-let caws = ['CAW!', 'CAAW!', 'CAW! CAAW!'];
+const caws = ['CAW!', 'CAAW!', 'CAW! CAAW!'];
 
 module.exports = {
 	data: new SlashCommandBuilder()
