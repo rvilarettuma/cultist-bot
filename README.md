@@ -1,1 +1,17 @@
-# cultist-bot
+<div align="center">
+<h1> cultist-bot :feather: :crescent_moon: </h1>
+  
+  *CAW! CAAAW! My power is unmatched!*
+  
+  <img src="https://i.redd.it/6iuawihnj0p31.png" alt="Cute Cultist Image" width="500px" height="380">
+  
+  [Image Source](https://www.reddit.com/r/slaythespire/comments/d9qza7/i_drew_the_cultists_wish_fame_and_fortune/)
+</div>
+
+## Description
+A simple Discord bot written using Discord.js and Node.js for *Slay the Spire* players who are indecisive about which character to play next. 
+
+## Usage
+
+* `/caw`: CAW CAAW!
+* `/sts`: Randomly selects a playable character and replies to your message with an easily identifiable at-a-glance response. 
