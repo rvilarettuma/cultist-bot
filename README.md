@@ -15,3 +15,9 @@ A simple Discord bot written using Discord.js and Node.js for *Slay the Spire* p
 
 * `/caw`: CAW CAAW!
 * `/sts`: Randomly selects a playable character and replies to your message with an easily identifiable at-a-glance response. 
+
+## Planned Features
+* Add audio voiceline functionality to `/caw`.
+* Add randomly rolled "Deck Archetypes" to `/sts`.
+* Add `/boss` command to receive stat and pattern information.
+* Add `/relic` command to recieve information on a specified relic.  
