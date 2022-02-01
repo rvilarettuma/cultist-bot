@@ -15,6 +15,7 @@ A simple Discord bot written using Discord.js and Node.js for *Slay the Spire* p
 
 * `/caw`: CAW CAAW!
 * `/sts`: Randomly selects a playable character and replies to your message with an easily identifiable at-a-glance response. 
+* `/relic name: $(name)`: Accepts a mandatory user string option containing the name of a relic. Fuzzy Search capable. Returns a embedded message containing relic information.  
 
 ## Planned Features
 - [x] Add `/relic` command to receive information on a specified relic.
