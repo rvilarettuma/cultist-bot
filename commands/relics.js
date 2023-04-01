@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 
 const Fuse = require('fuse.js')
-const relics = require("./RelicsList/relicList");
+const relics = require("./assets/json/relics");
 let image = new MessageAttachment("./assets/images/relics/cantUseRelic.png");
 
 module.exports = {
