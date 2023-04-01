@@ -3,7 +3,7 @@ const { MessageEmbed, MessageAttachment } = require('discord.js');
 
 const Fuse = require('fuse.js')
 const relics = require("./RelicsList/relicList");
-let image = new MessageAttachment("./commands/RelicsList/relics/cantUseRelic.png");
+let image = new MessageAttachment("./assets/images/relics/cantUseRelic.png");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -24,7 +24,7 @@ module.exports = {
 
 function buildEmbed(relic) {
 
-  let imagePath = `./commands/RelicsList/relics/${relic.item.image}.png`.toString()
+  let imagePath = `./assets/images/relics/${relic.item.image}.png`.toString()
   image = new MessageAttachment(imagePath)
   let attachmentString = `attachment://${relic.item.image}.png`.toString()
 

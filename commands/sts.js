@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 
-const ic_img = new MessageAttachment('sts_images/ironclad.png');
+const ic_img = new MessageAttachment('assets/images/characters/ironclad.png');
 const ironclad =  new MessageEmbed()
   .setColor('#602020')
   .setTitle('Ironclad')
@@ -10,7 +10,7 @@ const ironclad =  new MessageEmbed()
   . setThumbnail('attachment://ironclad.png')
   .addField('Strategies:', 'https://slay-the-spire.fandom.com/wiki/Ironclad#Strategies')
 
-const si_img = new MessageAttachment('sts_images/silent.png');
+const si_img = new MessageAttachment('assets/images/characters/silent.png');
 const silent =  new MessageEmbed()
   .setColor('#008060')
   .setTitle('Silent')
@@ -19,7 +19,7 @@ const silent =  new MessageEmbed()
   . setThumbnail('attachment://silent.png')
   .addField('Strategies:', 'https://slay-the-spire.fandom.com/wiki/Silent#Strategy')
 
-const df_img = new MessageAttachment('sts_images/defect.png');
+const df_img = new MessageAttachment('assets/images/characters/defect.png');
 const defect =  new MessageEmbed()
   .setColor('#005c99')
   .setTitle('Defect')
@@ -28,7 +28,7 @@ const defect =  new MessageEmbed()
   . setThumbnail('attachment://defect.png')
   .addField('Strategies:','https://slay-the-spire.fandom.com/wiki/Defect#Strategy')
   
-const wt_img = new MessageAttachment('sts_images/watcher.png');
+const wt_img = new MessageAttachment('assets/images/characters/watcher.png');
 const watcher =  new MessageEmbed()
   .setColor('#5900b3')
   .setTitle('Watcher')
