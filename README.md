@@ -22,5 +22,3 @@ A simple Discord bot written using Discord.js and Node.js for *Slay the Spire* p
 - [ ] Add `/boss` command to receive stat and pattern information.  
 - [ ] Add randomly rolled "Deck Archetypes" to `/sts`.
 - [ ] Add audio voiceline functionality to `/caw`.
-
-

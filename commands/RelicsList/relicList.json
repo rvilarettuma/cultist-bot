@@ -59,7 +59,7 @@
     "name": "Black Blood",
     "rarity": "Boss",
     "character": "Ironclad",
-    "description": "Replaces Burning Blood. <br>At the end of combat, heal 12 HP.",
+    "description": "Replaces Burning Blood. At the end of combat, heal 12 HP.",
     "flavor": "The rage grows darker.",
     "image": "blackblood"
   },
@@ -88,28 +88,28 @@
   {
     "name": "Blue Candle",
     "rarity": "Uncommon",
-    "description": "Curse cards can now be played. <br>Playing a Curse will make you lose 1 HP and Exhausts the card.",
+    "description": "Curse cards can now be played. Playing a Curse will make you lose 1 HP and Exhausts the card.",
     "flavor": "The flame ignites when shrouded in darkness.",
     "image": "bluecandle"
   },
   {
     "name": "Bottled Flame",
     "rarity": "Uncommon",
-    "description": "Upon pick up, choose an Attack card. <br>At the start of each combat, this card will be in your hand.",
+    "description": "Upon pick up, choose an Attack card. At the start of each combat, this card will be in your hand.",
     "flavor": "Inside the bottle resides a flame that eternally burns.",
     "image": "bottledflame"
   },
   {
     "name": "Bottled Lightning",
     "rarity": "Uncommon",
-    "description": "Upon pick up, choose a Skill card. <br>At the start of each combat, this card will be in your hand.",
+    "description": "Upon pick up, choose a Skill card. At the start of each combat, this card will be in your hand.",
     "flavor": "Peering into the swirling maelstrom, you see a part of yourself staring back.",
     "image": "bottledlightning"
   },
   {
     "name": "Bottled Tornado",
     "rarity": "Uncommon",
-    "description": "Upon pick up, choose a Power card. <br>At the start of each combat, this card will be in your hand.",
+    "description": "Upon pick up, choose a Power card. At the start of each combat, this card will be in your hand.",
     "flavor": "The bottle gently hums and whirs.",
     "image": "bottledtornado"
   },
@@ -139,7 +139,7 @@
   {
     "name": "Busted Crown",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>On Card Reward screens, you have 2 fewer cards to choose from",
+    "description": "Gain 1 Energy at the start of each turn. On Card Reward screens, you have 2 fewer cards to choose from",
     "flavor": "The Champ's crown... or a pale imitation?",
     "image": "bustedcrown"
   },
@@ -233,7 +233,7 @@
   {
     "name": "Coffee Dripper",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>You can no longer Rest at Rest Sites.",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer Rest at Rest Sites.",
     "flavor": "'Yes, another cup please. Back to work. Back to work!' - The Architect",
     "image": "coffeedripper"
   },
@@ -249,14 +249,14 @@
     "name": "Cultist Headpiece",
     "rarity": "Event",
     "eventName": "Face Trader",
-    "description": "You feel more talkative.<br>CAW! CAAAW",
+    "description": "You feel more talkative.CAW! CAAAW",
     "flavor": "Part of the Flock!",
     "image": "cultistmask"
   },
   {
     "name": "Cursed Key",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>Whenever you open a non-boss chest, obtain a Curse.",
+    "description": "Gain 1 Energy at the start of each turn. Whenever you open a non-boss chest, obtain a Curse.",
     "flavor": "You can feel the malicious energy emanating from the key. Power comes at a price.",
     "image": "cursedkey"
   },
@@ -335,7 +335,7 @@
   {
     "name": "Ectoplasm",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>You can no longer gain Gold.",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer gain Gold.",
     "flavor": "This blob of slime and energy seems to pulse with life.",
     "image": "ectoplasm"
   },
@@ -409,7 +409,7 @@
   {
     "name": "Fusion Hammer",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>You can no longer Smith at Rest Sites.",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer Smith at Rest Sites.",
     "flavor": "Once wielded, the owner can never let go.",
     "image": "burnHammer"
   },
@@ -491,7 +491,7 @@
     "name": "Holy Water",
     "rarity": "Boss",
     "character": "Watcher",
-    "description": "Replaces Pure Water. <br>At the start of each combat, add 3 Miracle cards to your hand.",
+    "description": "Replaces Pure Water. At the start of each combat, add 3 Miracle cards to your hand.",
     "flavor": "Collected from a time before the Spire.",
     "image": "holy_water"
   },
@@ -600,7 +600,7 @@
     "name": "Mark of Pain",
     "rarity": "Boss",
     "character": "Ironclad",
-    "description": "Gain 1 Energy at the start of each turn. <br>Start combats with 2 Wounds in your draw pile.",
+    "description": "Gain 1 Energy at the start of each turn. Start combats with 2 Wounds in your draw pile.",
     "flavor": "This brand was used by the northern tribes to signify warriors who had mastered pain in battle.",
     "image": "mark_of_pain"
   },
@@ -712,7 +712,7 @@
     "rarity": "Event",
     "eventName": "Cursed Tome",
     "description": "The first Attack played each turn that costs 2 or more is played twice. When you take this relic, obtain a special Curse.",
-    "flavor": "Only a fool would try and harness this evil power. At night your dreams are haunted by <br>images of the book devouring your mind.",
+    "flavor": "Only a fool would try and harness this evil power. At night your dreams are haunted by images of the book devouring your mind.",
     "image": "necronomicon"
   },
   {
@@ -865,7 +865,7 @@
   {
     "name": "Philosopher's Stone",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>ALL enemies start with 1 Strength.",
+    "description": "Gain 1 Energy at the start of each turn. ALL enemies start with 1 Strength.",
     "flavor": "Raw energy emanates from the stone, empowering all nearby.",
     "image": "philosopherStone"
   },
@@ -946,7 +946,7 @@
     "name": "Ring of the Serpent",
     "rarity": "Boss",
     "character": "Silent",
-    "description": "Replaces Ring of the Snake.<br>At the start of your turn, draw 1 additional card.",
+    "description": "Replaces Ring of the Snake.At the start of your turn, draw 1 additional card.",
     "flavor": "Your ring has morphed and changed forms.",
     "image": "serpent_ring"
   },
@@ -984,7 +984,7 @@
   {
     "name": "Runic Dome",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>You can no longer see enemy Intents.",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer see enemy Intents.",
     "flavor": "The runes are indecipherable.",
     "image": "runicDome"
   },
@@ -1070,7 +1070,7 @@
   {
     "name": "Sozu",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>You can no longer obtain potions.",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer obtain potions.",
     "flavor": "You notice that magical liquids seem to lose their properties when near this relic.",
     "image": "sozu"
   },
@@ -1195,7 +1195,7 @@
   {
     "name": "Tiny House",
     "rarity": "Boss",
-    "description": "Obtain 1 potion. <br>Gain 50 Gold. <br>Raise your Max HP by 5. <br>Obtain 1 card. <br>Upgrade 1 random card.",
+    "description": "Obtain 1 potion. Gain 50 Gold. Raise your Max HP by 5. Obtain 1 card. Upgrade 1 random card.",
     "flavor": "'A near perfect implementation of miniaturization. My finest work to date, but still not adequate.' - The Architect",
     "image": "tinyHouse"
   },
@@ -1274,7 +1274,7 @@
   {
     "name": "Velvet Choker",
     "rarity": "Boss",
-    "description": "Gain 1 Energy at the start of each turn. <br>You cannot play more than 6 cards per turn.",
+    "description": "Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn.",
     "flavor": "'Immense power, but too limited'. - Kublai the Great",
     "image": "redChoker"
   },

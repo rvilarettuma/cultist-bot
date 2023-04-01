@@ -28,12 +28,30 @@ function buildEmbed(relic) {
   image = new MessageAttachment(imagePath)
   let attachmentString = `attachment://${relic.item.image}.png`.toString()
 
+  switch (`${relic.item.character}`) {
+    case 'Ironclad':
+      color = '#602020';
+      break;
+    case 'Silent':
+      color = '#008060';
+      break;
+    case 'Defect':
+      color = '#005c99';
+      break;
+    case 'Watcher':
+      color = '#5900b3';
+      break;
+    default:
+      color = '#FFD700';
+      break;
+  }
+
   let embeddedMessage = new MessageEmbed()
     .setTitle(`${relic.item.name}`)
-    // .addField('Rarity:', `${relic.item.rarity}`)
     .setDescription(`${relic.item.description}`)
     .addField(' ', `*${relic.item.flavor}*`)
     .setThumbnail(`${attachmentString}`)
+    .setColor(color)
 
   return embeddedMessage
 }
