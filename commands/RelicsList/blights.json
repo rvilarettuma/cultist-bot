@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Accursed",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "Whenever you defeat a Boss, obtain 2 random Curses.",
+    "image": "Accursed.png"
+  },
+  {
+    "name": "Ancient Augmentation",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "Enemies start combat with 1 Regenerate.",
+    "image": "Ancient.png"
+  },  
+  {
+    "name": "Durian",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "Lose 50% of your Max HP.",
+    "image": "Durian.png"
+  },
+  {
+    "name": "Grotesque Trophy",
+    "rarity": "Blight",
+    "description": "Upon pickup, obtain 3 Prides.",
+    "image": "Trophy.png"
+  },
+  {
+    "name": "Hauntings",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "Enemies start combat with 1 Intangible.",
+    "image": "Hauntings.png"
+  },
+  {
+    "name": "Mimic Infestation",
+    "rarity": "Blight",
+    "description": "Treasure rooms in future acts are replaced by Elites. Elites no longer drop Relics.",
+    "image": "Mimic.png"
+  },
+  {
+    "name": "Muzzle",
+    "rarity": "Blight",
+    "description": "You can no longer increase your Max HP. All healing is halved.",
+    "image": "Muzzle.png"
+  },
+  {
+    "name": "Scatterbrain",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "Draw 1 less card a turn.",
+    "image": "Scatter.png"
+  },
+  {
+    "name": "Shield of Blight",
+    "rarity": "Blight",
+    "description": "Enemies have 50% more HP.",
+    "image": "Shield.png"
+  },
+  {
+    "name": "Spear of Blight",
+    "rarity": "Blight",
+    "description": "Enemies deal more damage.",
+    "image": "Spear.png"
+  },
+  {
+    "name": "Time Maze",
+    "rarity": "Blight",
+    "description": "You cannot play more than 15 cards per turn.",
+    "image": "Time Maze.png"
+  },
+  {
+    "name": "Twisting Mind",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "At the end of your turn, add 1 random Status card to the top of your draw pile.",
+    "image": "Twist.png"
+  },
+  {
+    "name": "Void Essence",
+    "rarity": "Blight",
+    "character": "Blight Chest",
+    "description": "Lose 1 Energy permanently.",
+    "image": "Void_essence.png"
+  },
+]

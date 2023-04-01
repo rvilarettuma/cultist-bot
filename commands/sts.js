@@ -7,7 +7,7 @@ const ironclad =  new MessageEmbed()
   .setTitle('Ironclad')
   .setURL('https://slay-the-spire.fandom.com/wiki/Ironclad')
   .setDescription('The remaining soldier of the Ironclads. Sold his soul to harness demonic energies.')
-  .setImage('attachment://ironclad.png')
+  . setThumbnail('attachment://ironclad.png')
   .addField('Strategies:', 'https://slay-the-spire.fandom.com/wiki/Ironclad#Strategies')
 
 const si_img = new MessageAttachment('sts_images/silent.png');
@@ -16,7 +16,7 @@ const silent =  new MessageEmbed()
   .setTitle('Silent')
   .setURL('https://slay-the-spire.fandom.com/wiki/Silent')
   .setDescription('A deadly huntress from the foglands. Eradicates foes with daggers and poisons.')
-  .setImage('attachment://silent.png')
+  . setThumbnail('attachment://silent.png')
   .addField('Strategies:', 'https://slay-the-spire.fandom.com/wiki/Silent#Strategy')
 
 const df_img = new MessageAttachment('sts_images/defect.png');
@@ -25,7 +25,7 @@ const defect =  new MessageEmbed()
   .setTitle('Defect')
   .setURL('https://slay-the-spire.fandom.com/wiki/Defect')
   .setDescription('Combat automaton which became self-aware. Ancient technology allows manipulation of Orbs.')
-  .setImage('attachment://defect.png')
+  . setThumbnail('attachment://defect.png')
   .addField('Strategies:','https://slay-the-spire.fandom.com/wiki/Defect#Strategy')
   
 const wt_img = new MessageAttachment('sts_images/watcher.png');
@@ -34,7 +34,7 @@ const watcher =  new MessageEmbed()
   .setTitle('Watcher')
   .setURL('https://slay-the-spire.fandom.com/wiki/Watcher')
   .setDescription('A blind ascetic who has come to "Evaluate" the Spire. Master of the divine Stances.')
-  .setImage('attachment://watcher.png')
+  . setThumbnail('attachment://watcher.png')
   .addField('Strategies:', 'https://slay-the-spire.fandom.com/wiki/Watcher#Strategies')
 
 module.exports = {
