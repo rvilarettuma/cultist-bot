@@ -33,6 +33,9 @@ function buildEmbed(relic) {
     if (characters[i].name == relic.item.character) {
       color = characters[i].color
     }
+    else {
+      color = '#FFD700';
+    }
   }
 
   let embeddedMessage = new MessageEmbed()
