@@ -2,7 +2,8 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, MessageAttachment } = require('discord.js');
 
 const Fuse = require('fuse.js')
-const relics = require("./assets/json/relics");
+const relics = require("../assets/json/relics.json");
+const characters = require("../assets/json/characters.json")
 let image = new MessageAttachment("./assets/images/relics/cantUseRelic.png");
 
 module.exports = {
@@ -24,26 +25,14 @@ module.exports = {
 
 function buildEmbed(relic) {
 
-  let imagePath = `./assets/images/relics/${relic.item.image}.png`.toString()
-  image = new MessageAttachment(imagePath)
-  let attachmentString = `attachment://${relic.item.image}.png`.toString()
+  let imagePath = `./assets/images/relics/${relic.item.image}.png`.toString();
+  image = new MessageAttachment(imagePath);
+  let attachmentString = `attachment://${relic.item.image}.png`.toString();
 
-  switch (`${relic.item.character}`) {
-    case 'Ironclad':
-      color = '#602020';
-      break;
-    case 'Silent':
-      color = '#008060';
-      break;
-    case 'Defect':
-      color = '#005c99';
-      break;
-    case 'Watcher':
-      color = '#5900b3';
-      break;
-    default:
-      color = '#FFD700';
-      break;
+  for (let i in characters) {
+    if (characters[i].name == relic.item.character) {
+      color = characters[i].color
+    }
   }
 
   let embeddedMessage = new MessageEmbed()
@@ -53,17 +42,16 @@ function buildEmbed(relic) {
     .setThumbnail(`${attachmentString}`)
     .setColor(color)
 
-  return embeddedMessage
+  return embeddedMessage;
 }
 
 function findRelic(userInput) {
-
   const options = {
     includeScore: true,
     keys: ["name"]
   }
-  const fuse = new Fuse(relics, options)
-  const result = fuse.search(userInput)
-
-  return result[0]
+  const fuse = new Fuse(relics, options);
+  const result = fuse.search(userInput);
+  
+  return result[0];
 }

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ironclad",
+        "color": "#602020",
+        "url": "https://slay-the-spire.fandom.com/wiki/Ironclad",
+        "description": "The remaining soldier of the Ironclads. Sold his soul to harness demonic energies.",
+        "image": "ironclad.png"
+    },
+    {
+        "name": "Silent",
+        "color": "#008060",
+        "url": "https://slay-the-spire.fandom.com/wiki/Silent",
+        "description": "A deadly huntress from the foglands. Eradicates foes with daggers and poisons.",
+        "image": "silent.png"
+    },
+    {
+        "name": "Defect",
+        "color": "#005c99",
+        "url": "https://slay-the-spire.fandom.com/wiki/Defect",
+        "description": "Combat automaton which became self-aware. Ancient technology allows manipulation of Orbs.",
+        "image": "defect.png"
+    },
+    {
+        "name": "Watcher",
+        "color": "#5900b3",
+        "url": "https://slay-the-spire.fandom.com/wiki/Watcher",
+        "description": "A blind ascetic who has come to 'Evaluate' the Spire. Master of the divine Stances.",
+        "image": "watcher.png"
+    }
+]
